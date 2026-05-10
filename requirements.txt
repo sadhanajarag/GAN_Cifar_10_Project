@@ -1,0 +1,26 @@
+# =====================================================================
+# GAN CIFAR-10 Project — Python Dependencies
+# =====================================================================
+# Install with:  pip install -r requirements.txt
+# Tested with:   Python 3.10  |  NVIDIA RTX 3500 Ada  |  Windows 11
+# =====================================================================
+
+# --- Core Deep Learning Framework ---
+tensorflow==2.10.1          # Last TF version with native Windows GPU support
+
+# --- Numerical Computing ---
+numpy==1.23.5               # Compatible with TF 2.10 (newer versions cause errors)
+
+# --- Visualization ---
+matplotlib>=3.7.0           # Plotting images and training charts
+
+# --- Jupyter Notebook ---
+jupyter>=1.0.0              # Run .ipynb notebooks
+notebook>=6.5.0             # Jupyter Notebook server
+ipykernel>=6.0.0            # Python kernel for Jupyter
+
+# --- Image Processing ---
+Pillow>=9.0.0               # Loading saved screenshot PNGs (PIL)
+
+# --- Model Saving ---
+h5py>=3.7.0                 # HDF5 format for saving/loading Keras models (.h5)
